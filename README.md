@@ -1,1 +1,2 @@
-# gtt
+# other
+other.blog
