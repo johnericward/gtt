@@ -57,6 +57,49 @@ html, body {
     text-shadow: -10px 20px 30px #2a3f49de;
   }
 
+
+  .titleText1 {
+    font-size: 8vw;
+    color: rgb(228, 236, 109);
+    letter-spacing: 10px;
+    margin: 22% auto 0 auto;
+    align-content: center;
+    text-align: center;
+
+    font-family: acier-bat-outline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: -10px 20px 30px #2a3f49de;
+  }
+  .titleText2 {
+    font-size: 8vw;
+    color: rgb(228, 236, 109);
+    letter-spacing: 10px;
+    margin: -1.5% auto -1.5% auto;
+    /* margin: auto; */
+    align-content: center;
+    text-align: center;
+
+    font-family: acier-bat-outline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: -10px 20px 30px #2a3f49de;
+  }
+  .titleText3 {
+    font-size: 8vw;
+    color: rgb(228, 236, 109);
+    letter-spacing: 10px;
+    margin: 0 auto 5% auto;
+    align-content: center;
+    text-align: center;
+
+    font-family: acier-bat-outline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: -10px 20px 30px #2a3f49de;
+  }
+
+
   .subtitleText {
     font-size: 2vw;
     color: rgb(224, 235, 78);
@@ -195,6 +238,28 @@ html, body {
         align-content: center;
         text-align: center;
       }
+      .titleText1 {
+        font-size: 15vw;
+        color: rgb(228, 236, 109);
+        margin: 20% 0 0 0;
+        align-content: center;
+        text-align: center;
+      }
+      .titleText2 {
+        font-size: 15vw;
+        color: rgb(228, 236, 109);
+        margin: 5% 0 5% 0;
+        align-content: center;
+        text-align: center;
+      }
+      .titleText3 {
+        font-size: 15vw;
+        color: rgb(228, 236, 109);
+        margin: 0 0 5% 0;
+        align-content: center;
+        text-align: center;
+      }
+
 
 
 
