@@ -381,7 +381,9 @@ html, body {
   }
 
 
-
+  .contact {
+    font-size: 5.5vw;
+  }
 
   .podcasterTextTitle {
     margin: 7% auto;
