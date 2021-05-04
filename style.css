@@ -301,6 +301,11 @@ html, body {
     margin: 10% 2%;
   }
   
+  .copyright {
+    text-align: center;
+    margin: 3% auto;
+    color: rgb(231, 231, 231);
+  }
   
   /* ========================{ Media Queries }======================================= */
   
