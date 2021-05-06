@@ -439,8 +439,10 @@ html, body {
   }
 
 
-
-
+  .podDescription {
+    font-size: 4vw;
+    margin: auto 3%;
+  }
 
   .contact {
     font-size: 5.5vw;
