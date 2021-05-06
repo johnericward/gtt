@@ -159,7 +159,13 @@ html, body {
     color: rgb(202, 162, 77);
     
   } */
-
+.podDescription {
+  font-size: 1.5vw;
+  color: rgb(204, 125, 149);
+  margin: 15% auto;
+    text-align: center;
+    font-family: acier-bat-solid, sans-serif;
+}
 
   .contact {
     font-size: 2vw;
