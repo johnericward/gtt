@@ -18,6 +18,13 @@ html, body {
 
   }
 
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
   .allDivs {
     background-image: url(assets/GTT_webBG_vert.jpg);
     /* background-position: top center; */
@@ -161,7 +168,8 @@ html, body {
   } */
 .podDescription {
   font-size: 1.5vw;
-  color: rgb(204, 125, 149);
+  /* color: rgb(204, 125, 149); */
+  color: rgb(202, 162, 77);
   margin: 15% auto;
     text-align: center;
     font-family: acier-bat-solid, sans-serif;
@@ -170,6 +178,7 @@ html, body {
   .contact {
     font-size: 2vw;
     color: rgb(204, 125, 149);
+    /* color: rgb(202, 162, 77); */
     /* margin: 35% 10% 20% 10%; */
     margin: 15% auto;
     text-align: center;
@@ -269,6 +278,36 @@ html, body {
     
   }
 
+  .enneagramLinkDiv {
+    margin: 15% auto;
+    align-content: center;
+    text-align: center;
+    
+  }
+  .enneagramHref {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+    
+  }
+  .enneagramHref:hover {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(243, 209, 134);
+    /* font-weight: bold; */
+  }
+  .enneaLinkText {
+    padding: 5%;
+    border-radius: 25px;
+    border-style: double;
+    text-decoration: none;
+    margin: 20%;
+  }
+
+
+
+
+
   .letsTalk {
     font-size: 5vw;
     margin: 3% auto;
@@ -349,6 +388,100 @@ html, body {
     margin: 3% auto;
     color: rgb(231, 231, 231);
   }
+
+
+/* ========================{ ENNEAGRAM PAGE }======================================= */
+
+
+.enneagramSubtitleText {
+  font-size: 2vw;
+  color: rgb(224, 235, 78);
+  /* margin: 35% 10% 20% 10%; */
+  margin: 30% auto 5% auto;
+  text-align: center;
+
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+.enneagramSubtitleText:hover {
+  
+  color: rgb(244, 252, 132);
+  /* margin: 35% 10% 20% 10%; */
+  
+  text-decoration: none;
+}
+
+.enneagramTitleText2 {
+  font-size: 8vw;
+  color: rgb(228, 236, 109);
+  letter-spacing: 10px;
+  margin: -1.5% auto 20% auto; 
+  /* margin: auto; */
+  align-content: center;
+  text-align: center;
+
+  font-family: acier-bat-outline, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: -10px 20px 30px #2a3f49de;
+}
+
+.enneagramImageDiv {
+  align-content: center;
+  text-align: center;
+  
+
+}
+.enneagramImage {
+  align-content: center;
+  text-align: center;
+  border-radius: 25px;
+  width: 90%;
+  margin: 3% auto 1% auto;
+
+}
+
+.enneagramTestText {
+  align-content: center;
+  text-align: center;
+  margin: 3% auto 10% auto;
+  padding: 5%;
+  border-radius: 25px;
+  border-style: double;
+  text-decoration: none;
+  font-size: 1vw;
+  color: rgb(202, 162, 77)
+  /* transition: padding .3s; */
+  /* transition: font-size .3s; */
+
+}
+.enneagramTestText:hover {
+  /* padding: 5.5%; */
+  /* font-size: 1.1vw; */
+  /* font-weight: bold; */
+  color: rgb(238, 194, 99)
+}
+
+.enneaSpan {
+  font-weight: bold;
+}
+
+.enneagramTestLink {
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(202, 162, 77)
+}
+.enneagramTestLink:hover {
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(202, 162, 77);
+  font-size: 1.2vw;
+}
+  
   
   /* ========================{ Media Queries }======================================= */
   
@@ -400,19 +533,16 @@ html, body {
   .subtitleText {
     font-size: 4vw;
     color: rgb(224, 235, 78);
-    /* margin: 35% 10% 20% 10%; */
+    
     margin: auto auto 30% auto;
     text-align: center;
-
-    /* font-family: acier-bat-outline, sans-serif;
-    font-weight: 400;
-    font-style: normal; */
-
 
     font-family: acier-bat-solid, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  
 
   .subtitleArrow{
     display: none;
@@ -434,10 +564,7 @@ html, body {
 
   .topLinks {
     
-
-
   }
-
 
   .podDescription {
     font-size: 4vw;
@@ -447,6 +574,20 @@ html, body {
   .contact {
     font-size: 5.5vw;
   }
+
+
+  .enneagramHref {
+    font-size: 5vw;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+  }
+  .enneagramHref:hover {
+    font-size: 5vw;
+    text-decoration: none;
+    /* color: rgb(202, 162, 77); */
+  }
+
+
 
   .podcasterTextTitle {
     margin: 7% auto;
@@ -504,4 +645,86 @@ html, body {
   }
 
 
+/* ========================{ ENNEAGRAM MQ's }======================================= */
+
+
+  .enneagramSubtitleText {
+    font-size: 4vw;
+    color: rgb(224, 235, 78);
+    
+    margin: 40% auto 5% auto;
+    text-align: center;
+
+    font-family: acier-bat-solid, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .enneagramTitleText2 {
+    font-size: 15vw;
+    color: rgb(228, 236, 109);
+    margin: 5% 0 30% 0;
+    align-content: center;
+    text-align: center;
+  }
+
+  .enneagramImageDiv {
+    align-content: center;
+    text-align: center;
+    
+  
+  }
+  .enneagramImage {
+    align-content: center;
+    text-align: center;
+    border-radius: 25px;
+    width: 90%;
+    margin: 3% auto 10% auto;
+  
+  }
+
+
+
+  .enneagramTestText {
+    align-content: center;
+    text-align: center;
+    margin: 3% 5% 10% 5%;
+    padding: 5%;
+    border-radius: 25px;
+    border-style: double;
+    text-decoration: none;
+    font-size: 4vw;
+    color: rgb(202, 162, 77)
+    /* transition: padding .3s; */
+    /* transition: font-size .3s; */
+  
+  }
+  .enneagramTestText:hover {
+    /* padding: 5.5%; */
+    /* font-size: 1.1vw; */
+    /* font-weight: bold; */
+    color: rgb(238, 194, 99)
+  }
+  
+  .enneaSpan {
+    font-weight: bold;
+  }
+  
+  .enneagramTestLink {
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+    
+  }
+  .enneagramTestLink:hover {
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+    font-size: 1.2vw;
+  }
+
+
+/* ============================={ END OF MQ's }======================================= */
   }
