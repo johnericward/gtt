@@ -481,8 +481,49 @@ html, body {
   color: rgb(202, 162, 77);
   font-size: 1.2vw;
 }
+
+
+
+.enneaExplanationsTitles {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 3% 0
+}  
+.enneaExplanations {
+  color: white;
+  font-size: 1vw;
+  padding: 3%;
+  /* text-align: center; */
+}
+
+
+.heart {
+  background-color: rgba(255, 199, 208, 0.623);
+  border-radius: 25px 25px 0 0;
+}
+.head {
+  background-color: rgba(170, 252, 255, 0.623);
+}
+.gut {
+  background-color: rgba(233, 205, 255, 0.623);
+  border-radius: 0 0 25px 25px;
+}
   
-  
+.enneaCenterCol {
+  border-style: none solid none solid;
+  border-width: 1px;
+}
+
+.italics {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+
+
   /* ========================{ Media Queries }======================================= */
   
     /* PHONES */
@@ -725,6 +766,57 @@ html, body {
     font-size: 1.2vw;
   }
 
+
+  .enneaCenterCol {
+    border-style: none;
+  }
+
+
+  .enneaExplanationsTitles {
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 3% 0
+  }  
+  .enneaExplanations {
+    color: white;
+    font-size: 3vw;
+    padding: 3%;
+    border-style: none none solid none;
+    border-width: 1px;
+    margin: 0 5%;
+    /* text-align: center; */
+  }
+  
+  .en1 {
+    border-style: none;
+    /* border-radius: 0px; */
+  }
+
+
+  .heart {
+    background-color: rgba(255, 199, 208, 0.623);
+    /* border-radius: 25px 25px 0 0; */
+    margin: 0 5%;
+  }
+  .head {
+    background-color: rgba(170, 252, 255, 0.623);
+    margin: 0 5%;
+  }
+  .gut {
+    background-color: rgba(233, 205, 255, 0.623);
+    /* border-radius: 0 0 25px 25px; */
+    margin: 0 5% 10% 5%;
+  }
+    
+
+  .en1 {
+    border-style: none;
+    /* border-radius: 0 0 50px 50px; */
+  }
+
+ 
 
 /* ============================={ END OF MQ's }======================================= */
   }
