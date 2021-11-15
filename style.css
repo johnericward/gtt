@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 
-    background-color: rgb(240, 232, 215);
+    background-color: rgb(27, 27, 27);
     /* background-image: url("assets/texture_bg.jpg"); */
     /* background-repeat: no-repeat; */
     z-index: 5;
@@ -256,9 +256,16 @@ html, body {
     text-align: center;
     align-content: center;
     margin: 2% auto;
+    transition: width .4s;
     width: 80%;
 
   }
+
+  .topLogos:hover {
+    width: 85%;
+  }
+
+  
 
   .topLinks {
     /* text-align: center;
