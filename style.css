@@ -287,7 +287,7 @@ html, body {
   }
 
   .enneagramLinkDiv {
-    margin: 15% auto;
+    margin: 15% auto 1% auto;
     align-content: center;
     text-align: center;
     
@@ -311,6 +311,66 @@ html, body {
     text-decoration: none;
     margin: 20%;
   }
+
+
+
+
+  .logFallLinkDiv {
+    margin: 1% auto;
+    align-content: center;
+    text-align: center;
+    
+  }
+  .logFallHref {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+    
+  }
+  .logFallHref:hover {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(243, 209, 134);
+    /* font-weight: bold; */
+  }
+  .logFallLinkText {
+    padding: 5%;
+    border-radius: 25px;
+    border-style: double;
+    text-decoration: none;
+    margin: 20%;
+  }
+
+
+
+
+
+  .cogBiasLinkDiv {
+    margin: 1% auto 15% auto;
+    align-content: center;
+    text-align: center;
+    
+  }
+  .cogBiasHref {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+    
+  }
+  .cogBiasHref:hover {
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(243, 209, 134);
+    /* font-weight: bold; */
+  }
+  .cogBiasLinkText {
+    padding: 5%;
+    border-radius: 25px;
+    border-style: double;
+    text-decoration: none;
+    margin: 20%;
+  }
+
 
 
 
@@ -643,6 +703,33 @@ html, body {
     text-decoration: none;
     /* color: rgb(202, 162, 77); */
   }
+
+
+
+  .logFallHref {
+    font-size: 5vw;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+  }
+  .logFallHref:hover {
+    font-size: 5vw;
+    text-decoration: none;
+    /* color: rgb(202, 162, 77); */
+  }
+
+
+
+  .cogBiasHref {
+    font-size: 5vw;
+    text-decoration: none;
+    color: rgb(202, 162, 77);
+  }
+  .cogBiasHref:hover {
+    font-size: 5vw;
+    text-decoration: none;
+    /* color: rgb(202, 162, 77); */
+  }
+
 
 
 
