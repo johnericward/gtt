@@ -287,7 +287,7 @@ html, body {
   }
 
   .enneagramLinkDiv {
-    margin: 15% auto 1% auto;
+    margin: 5% 20%;
     align-content: center;
     text-align: center;
     
@@ -305,18 +305,18 @@ html, body {
     /* font-weight: bold; */
   }
   .enneaLinkText {
-    padding: 5%;
+    padding: 7%;
     border-radius: 25px;
     border-style: double;
     text-decoration: none;
-    margin: 20%;
+    margin: 5% 0%;
   }
 
 
 
 
   .logFallLinkDiv {
-    margin: 1% auto;
+    margin: 5% 20%;
     align-content: center;
     text-align: center;
     
@@ -334,11 +334,11 @@ html, body {
     /* font-weight: bold; */
   }
   .logFallLinkText {
-    padding: 5%;
+    padding: 7% 3%;
     border-radius: 25px;
     border-style: double;
     text-decoration: none;
-    margin: 20%;
+    margin: 5% 0%;
   }
 
 
@@ -346,15 +346,17 @@ html, body {
 
 
   .cogBiasLinkDiv {
-    margin: 1% auto 15% auto;
+    margin: 5% 20%;
     align-content: center;
     text-align: center;
+    /* background-color: red; */
     
   }
   .cogBiasHref {
     font-size: 2vw;
     text-decoration: none;
     color: rgb(202, 162, 77);
+    /* background-color: red; */
     
   }
   .cogBiasHref:hover {
@@ -362,13 +364,15 @@ html, body {
     text-decoration: none;
     color: rgb(243, 209, 134);
     /* font-weight: bold; */
+    /* background-color: red; */
   }
   .cogBiasLinkText {
-    padding: 5%;
+    padding: 7% 3%;
     border-radius: 25px;
     border-style: double;
     text-decoration: none;
-    margin: 20%;
+    margin: 5% 0% 30% 0%;
+    /* background-color: red; */
   }
 
 
