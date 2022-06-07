@@ -1,2 +1,2 @@
-# other
-other.blog
+# goodtotalk
+goodtotalk.co
