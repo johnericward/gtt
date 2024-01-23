@@ -519,6 +519,14 @@ html, body {
 
 }
 
+.enneagramSeasonTitles {
+  text-align: center;
+  color: rgb(202, 162, 77);
+  font-size: 2vw;
+  font-family: acier-bat-solid, sans-serif;
+}
+
+
 .enneagramTestText {
   align-content: center;
   text-align: center;
@@ -834,7 +842,11 @@ html, body {
   
   }
 
+  .enneagramSeasonTitles {
 
+    font-size: 4vw;
+   
+  }
 
   .enneagramTestText {
     align-content: center;
