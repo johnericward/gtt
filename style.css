@@ -35,6 +35,16 @@ html, body {
     background-size: cover;
     z-index: 7;
   }
+  .allDivs2 {
+    background-image: url(assets/GTT_webBG_vert.jpg);
+    /* background-position: top center; */
+    /* height: 100vh; */
+    /* height: 100vw; */
+    /* background-attachment: fixed; */
+    /* filter: invert(100%); */
+    background-size: cover;
+    z-index: 7;
+  }
 
 
   
@@ -473,13 +483,14 @@ html, body {
   font-size: 2vw;
   color: rgb(224, 235, 78);
   /* margin: 35% 10% 20% 10%; */
-  margin: 30% auto 5% auto;
+  margin: 30% auto 0% auto;
   text-align: center;
 
   font-family: acier-bat-solid, sans-serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+  text-shadow: -3px 3px 30px #2a3f49de;
 }
 .enneagramSubtitleText:hover {
   
@@ -493,7 +504,7 @@ html, body {
   font-size: 8vw;
   color: rgb(228, 236, 109);
   letter-spacing: 10px;
-  margin: -1.5% auto 20% auto; 
+  margin: 0% auto 7% auto; 
   /* margin: auto; */
   align-content: center;
   text-align: center;
@@ -515,7 +526,7 @@ html, body {
   text-align: center;
   border-radius: 25px;
   width: 90%;
-  margin: 3% auto 1% auto;
+  margin: 1% auto 15% auto;
 
 }
 
@@ -942,3 +953,9 @@ html, body {
 
 /* ============================={ END OF MQ's }======================================= */
   }
+
+
+
+
+
+  
