@@ -48,7 +48,7 @@ html, body {
 
 
   
-  /* ===================Head of Page======================== */
+  /* =================== Head of Page / 1 ROW ======================== */
   
   .font1 {
     font-family: serif;
@@ -177,6 +177,12 @@ html, body {
     color: rgb(202, 162, 77);
     
   } */
+
+
+/* =================================================== 1.5 ROW ============================================================== */
+
+
+
 .podDescription {
   font-size: 1.5vw;
   /* color: rgb(204, 125, 149); */
@@ -256,6 +262,12 @@ html, body {
   }
 
 
+
+
+  .podServiceLinks {
+    text-align: center;
+    align-content: center;
+  }
 
   .linkCity {
     /* text-align: center;
@@ -388,6 +400,56 @@ html, body {
 
 
 
+/* =================================================== 1.75 ROW ============================================================== */
+
+.goodtoself {
+  text-align: center;
+    align-content: center;
+   
+}
+
+.goodtoself-image {
+align-content: center;
+}
+
+.gts-image-link {
+    text-align: center;
+    align-content: center;
+    margin: 2% auto 0 auto;
+    transition: width .4s;
+    width: 37%;
+
+  }
+.gts-image-link:hover {
+    width: 42%;
+
+  }
+
+
+
+.goodtoself-description {
+  font-size: 1.5vw;
+  /* color: rgb(204, 125, 149); */
+  color: rgb(202, 162, 77);
+  margin: 10% auto 15% auto;
+    text-align: center;
+    font-family: acier-bat-solid, sans-serif;
+}
+
+#gtsLink {
+   color: rgb(202, 162, 77);
+}
+#gtsLink:hover {
+   color: rgb(243, 209, 134);
+}
+
+
+
+
+
+
+
+/* =================================================== 2 ROW / ABOUT ============================================================== */
 
 
 
@@ -757,6 +819,16 @@ html, body {
   }
 
 
+  .goodtoself-image {
+    margin: 10% auto 0 auto;
+  }
+
+.goodtoself-description {
+  font-size: 4vw;
+    margin: 10% auto 22% auto;
+    padding: 0 5%;
+
+}
 
 
   .podcasterTextTitle {
