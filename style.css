@@ -135,7 +135,7 @@ html, body {
   }
 
   .titleLogo {
-    margin: 35% auto 5% auto;
+    margin: 30% auto 5% auto;
     text-align: center;
     
   }
@@ -735,7 +735,14 @@ align-content: center;
       }
 
 
-
+.titleLogo {
+    margin: 40% auto 5% auto;
+    text-align: center;
+    
+  }
+  .titleLogoIMG {
+    width:40%;
+  }
 
   .subtitleText {
     font-size: 4vw;
