@@ -32,7 +32,7 @@ html, body {
     /* height: 100vw; */
     /* background-attachment: fixed; */
     /* filter: invert(100%); */
-    background-size: 100%;
+    background-size: cover;
     /* margin: 0 auto; */
     z-index: 7;
   }
