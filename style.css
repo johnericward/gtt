@@ -27,7 +27,7 @@ html, body {
 
   .allDivs {
     background-image: url(assets/GTT_webBG_vert.jpg);
-    /* background-position: top center; */
+    background-position: top center;
     /* height: 100vh; */
     /* height: 100vw; */
     /* background-attachment: fixed; */
@@ -506,7 +506,7 @@ align-content: center;
   .podcasterText {
     margin: 2% 10% 20% 10%;
     /* color: rgb(65, 150, 172); */
-    color: rgb(77, 77, 77);
+    color: rgb(137, 137, 137);
     font-size: 1vw;
     font-family: sans-serif;
     font-style: italic;
