@@ -32,7 +32,8 @@ html, body {
     /* height: 100vw; */
     /* background-attachment: fixed; */
     /* filter: invert(100%); */
-    background-size: cover;
+    background-size: 100%;
+    /* margin: 0 auto; */
     z-index: 7;
   }
   .allDivs2 {
@@ -133,6 +134,14 @@ html, body {
     text-shadow: -10px 20px 30px #2a3f49de;
   }
 
+  .titleLogo {
+    margin: 35% auto 5% auto;
+    text-align: center;
+    
+  }
+  .titleLogoIMG {
+    width:40%;
+  }
 
   .subtitleText {
     font-size: 2vw;
