@@ -474,7 +474,7 @@ align-content: center;
   .podcaster1 {
     width: 90%;
     /* margin: 10%; */
-    box-shadow: 10px 10px 30px #00000055;
+    /* box-shadow: 10px 10px 30px #00000055; */
     margin: 10% auto;
     align-content: center;
     text-align: center;
@@ -498,15 +498,15 @@ align-content: center;
       /* padding: 10% 3%; */
       margin: 2% 10% 2% 10%;
       font-size: 2vw;
-      /* color: rgb(65, 150, 172); */
-      color: rgb(151, 151, 151);
+      color: rgb(65, 150, 172);
+      /* color: rgb(151, 151, 151); */
       font-family: acier-bat-solid, sans-serif;
 
   }
   .podcasterText {
     margin: 2% 10% 20% 10%;
-    /* color: rgb(65, 150, 172); */
-    color: rgb(137, 137, 137);
+    color: rgb(65, 150, 172);
+    /* color: rgb(137, 137, 137); */
     font-size: 1vw;
     font-family: sans-serif;
     font-style: italic;
